@@ -1,0 +1,61 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero .btn {
+    background-color: #ff4500;
+    border: none;
+}
+
+.hero .btn:hover {
+    background-color: #ff5722;
+}
+
+.categories .card, .featured-games .card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.categories .card:hover, .featured-games .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #212529;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        height: 40vh;
+    }
+
+    .hero .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .hero .lead {
+        font-size: 1.25rem;
+    }
+}
