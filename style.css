@@ -5,7 +5,7 @@ body {
 }
 
 .hero {
-    background: url('https://via.placeholder.com/1920x600') no-repeat center center;
+    background: url('img/background.jpg') no-repeat center center;
     background-size: cover;
     height: 60vh;
     display: flex;
